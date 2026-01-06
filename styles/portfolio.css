@@ -35,6 +35,7 @@
 .section-heading{
   max-width: 824px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .section-heading h2{
@@ -49,6 +50,7 @@
   margin-bottom:30px ;
   line-height: 30px;
   color: #757575;
+
 }
 
 /* main style */
@@ -143,6 +145,22 @@ nav .menu a{
   color: #757575;
 }
 .about-info .info-card h4{
-  font-size: 18px;
+  font-size: 15px;
 
+}
+
+#skills{
+  padding: 130px;
+}
+#skills .skills-conteiner{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* #skills .skills-conteiner .skill-box{ */
+  display: flex;
+}
+.skill-box .skill-card{
+  padding: 1px;
 }
